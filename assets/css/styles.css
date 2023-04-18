@@ -1,0 +1,555 @@
+@import url(//db.onlinewebfonts.com/c/6990e54d175d4ee4bd8347ac266cd93d?family=AbrilFatface-Regular);
+@font-face {font-family: "t2"; src: url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.eot"); src: url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.woff") format("woff"), url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6990e54d175d4ee4bd8347ac266cd93d.svg#AbrilFatface-Regular") format("svg"); }
+/* defult fonts */
+@font-face {
+    font-family:t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Regular'), url('../assets/fonts/vazir/MuktaMahee-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee ExtraLight'), url('../assets/fonts/vazir/MuktaMahee-ExtraLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Light'), url('../../assets/fonts/vazir/MuktaMahee-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Medium'), url('../../assets/fonts/vazir/MuktaMahee-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee SemiBold'), url('../../assets/fonts/vazirMuktaMahee-SemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Bold'), url('../../assets/fonts/vazir/MuktaMahee-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: t;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee ExtraBold'), url('../../assets/fonts/vazir/MuktaMahee-ExtraBold.woff') format('woff');
+    }
+/* main codes */
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    font-family: t;
+}
+ol,ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.wrapper1 {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+p {
+    display: inline-block;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+i.fa-regular.fa-star {
+    font-size: 10px;
+    color: aquamarine;
+}
+i.fa-solid.fa-star-half-stroke {
+    font-size: 10px;
+    color: aquamarine;
+}
+/* ..........................header.......................... */
+.header {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.wallpaper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/container/hero_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.wallpaper:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.menu {
+    float: right;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logo {
+    float: left;
+}
+.logo a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 30px;
+}
+.container .wrapper1 a span {
+    color: rgb(205 205 205);
+    text-decoration: underline;
+}
+.container .wrapper1 {
+    text-align: center;
+    margin-top: 260px;
+    color: #ffffff;
+    font-weight: 100;
+}
+.container .wrapper1 h1 {
+    font-size: 60px;
+    padding-bottom: 15px;
+    font-family: t2;
+}
+.none {
+    background: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.wrapper1 button {
+    margin-top: 50px;
+    padding: 8px 40px;
+    font-size: 25px;
+    color: #ffffff;
+    transition: all 0.5s;
+    border-color: #fff;
+}
+.container button:hover {
+    background:#fff;
+    color:#242424;
+}
+/* ....................................part2.............................. */
+.part2 .p3 a:hover i {
+    color: black;
+} 
+.part2 .p3 a:hover p {
+    color: black;
+    text-decoration: underline;
+}
+.level1 {
+    margin:100px;
+    overflow: hidden;
+}
+ol.level1 .p img {
+    height: 500px;
+    width: 100%;
+}
+ol.level1 .p {
+    width: 50%;
+    text-align: justify;
+    line-height: 25px;
+}
+ol.level1 li:first-child {
+    padding-right: 40px;
+}
+ol.level1 li.p2 {
+    margin-top: 130px;
+}
+ol.level1 .p2 h1 {
+    margin-bottom: 15px;
+    font-family: t2;
+}
+i.fa-regular {
+    font-size: 25px;
+}
+li.p3 i.fa-regular,li.p3 .prograph3 {
+    color: rgb(54, 204, 204);
+}
+li.p3 .prograph3 {
+    font-size: 20px;
+}
+li.p.p3 {
+    margin-top: 20px;
+}
+/* ...................................part3.................................... */
+.part3 h1{
+    padding-top: 100px;
+    font-family: t2;
+}
+.part3 {
+    background-color: rgb(233, 233, 233);
+}
+.part3 .slice1 {
+    text-align: center;
+}
+.slice1 p {
+    width: 50%;
+    color:#949393;
+}
+.slice2 {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.slice2 img {
+    padding-top: 30px;
+}
+.slice2 p {
+    color:#949393;
+}
+.slice2 h2 {
+    font-family: t2;
+}
+.slice2 img {
+    width: 100px;
+    height: 100px;
+}
+.slice3 li:nth-child(3){
+    padding-bottom: 100px;
+}
+.s {
+    float: left;
+    width: 33%;
+}
+.s p {
+    width: 90%;
+}
+/* ...................................part4............................. */
+.part4 {
+    text-align: center;
+}
+.part4 h1 {
+    padding-top: 150px;
+    font-size: 83px;
+    font-family: t2;
+}
+.part4 p {
+    width: 60%;
+    color: #949393;
+}
+.part4 img {
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+.information {
+    position: absolute;
+    bottom: 20px;
+    left: 460px;
+}
+.information ul {
+    overflow: hidden;
+}
+.information li {
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    float: left;
+    height: 10px;
+    margin-left: 20px;
+}
+.information li:nth-child(1) {
+    background: none;
+    border: 1px solid #ffffff;
+}
+.content-box1 {
+    position: relative;
+}
+/* .......................................part5....................................... */
+.part5 {
+    background-color: rgb(96, 210, 201);
+    text-align: center;
+    margin-top: -200px;
+    padding-bottom: 100px;
+}
+.part5 h1 {
+    padding-top: 300px;
+    font-size: 90px;
+    font-family: t2;
+}
+.part5 div img {
+    width: 300px;
+    height: 200px;
+}
+.p {
+    width: 33%;
+    float: left;
+}
+.part5 li {
+    width: 26%;
+}
+.part5 .wrapper1 h4 {
+    color: #ffffff;
+    width: 95%;
+
+}
+.space {
+    background: #ffffff;
+    width: 80%;
+    display: inline-block;
+}
+.space p {
+    width: 88%;
+    padding-bottom: 30px;
+}
+.space h4 {
+    color: #e3e3e3;
+}
+.space h2 {
+    font-size: 28px;
+    font-family: t2;
+}
+.part5 .content-box {
+    position: relative;
+}
+div.slices {
+    padding-top: 30px;
+}
+.part5 .skew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    transform: skew(0deg , -3deg);
+    transform-origin:left ;
+    background-color:rgb(96, 210, 201) ;
+    z-index: -1;
+}
+/* .................................part6............................ */
+.part6 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #e3e3e3;
+    padding-bottom: 50px;
+}
+.part6 h1 {
+    font-size: 70px;
+    padding-top: 70px;
+    font-family: t2;
+}
+.part6 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.part6 .slice7 , .part6 .slice8 , .part6 .slice9 {
+    width: 31%;
+}
+.part6 .slice7 p , .part6 .slice8 p , .part6 .slice9 p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #949393;
+}
+.p1 {
+    float: left;
+    padding-left: 35px;
+    text-align: justify;
+}
+.part6 h4 {
+    padding-top: 30px;
+    color: rgb(70, 70, 70);
+}
+.part6 ul {
+    padding-top: 50px;
+    padding-bottom: 40PX;
+}
+.part6 .wrapper1 .p1 a:hover {
+    text-decoration: underline;
+    font-size: bold;
+}
+/* ..................................................................part7...................................................... */
+.part7 {
+    text-align: center;
+}
+.slice10 p {
+    width: 55%;
+    color: #949393;
+}
+.slice10 h1 {
+    padding-top: 150px;
+    font-family: t2;
+}
+.s1 {
+    width: 25%;
+    float: left;
+}
+.part7 img {
+    width: 250px;
+    height: 150px;
+}
+.part7 .piece1 {
+    overflow: hidden;
+}
+.slice12.s1 .piece1 h3 {
+    float: left;
+    font-family: t2;
+    padding-top: 15px;
+}
+.slice11.s1 .piece1 h3{
+    float: left;
+    font-family: t2;
+    padding-top: 15px;
+}
+.slice13.s1 .piece1 h3{
+    float: left;
+    font-family: t2;
+    padding-top: 15px;
+}
+.slice14.s1 .piece1 h3{
+    float: left;
+    font-family: t2;
+    padding-top: 15px;
+}
+.slice11.s1 .piece2 , .slice12.s1 .piece2 , .slice13.s1 .piece2 , .slice14.s1 .piece2{
+    float: left;
+}
+.part7 .piece1 , .part7 .piece2 {
+    padding-left: 30px;
+}
+.part7 .piece3 {
+    padding: 0;
+    margin: 0;
+    float: right;
+    color: #aeaeae;
+}
+.slice14.s1 , .slice13.s1 , .slice12.s1 , .slice11.s1 {
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+/* ..................................footer..................................... */
+.footer {
+    background-color: #242424;
+}
+.footer h3 {
+    color: #ffffff;
+    font-family: t2;
+    text-align: justify;
+}
+.footer p {
+   color: #aeaeae;
+   text-align: justify;
+   margin: 0;
+}
+.slice15 li {
+    width: 20%;
+    height: 100%;  
+}
+.slice15 ul {
+    width: 100%;
+    height: 70%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.f p {
+    display: block;
+}
+.slice15 {
+    padding-left: 500px;
+}
+.f a {
+    color:#aeaeae;
+}
+.f3.f {
+    padding-right: 50px;
+}
+i.fa-regular.fa-paper-plane {
+    float: right;
+    color: #ffffff;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.f4.f h5 {
+    display: inline-block;
+}
+.f1.f1 , .f2.f , .f3.f {
+    line-height: 40px;
+}
+.piece4 {
+    padding-top: 20px;
+}
+.piece4 h5 {
+    color: #aeaeae;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.f4.f h3 {
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+.f5.f p {
+    color: #7f7f7f;
+}
+.f6.f p {
+    text-align: center;
+    padding-top: 50px;
+}
+.f7.f {
+    text-align: center;
+    padding-top: 30px;
+}
+.f7.f a {
+    padding-left: 20px;
+}
+.f8.f {
+    text-align: center;
+    padding-top: 150px;
+}
+.f8.f p {
+    display: inline-block;
+}
+i.fa-solid.fa-arrow-down {
+    display: block;
+    color: #ffffff;
+}
+.slice15 h5 {
+    font-size: 15px;
+    color: #ffffff;
+}

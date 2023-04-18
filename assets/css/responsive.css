@@ -1,0 +1,390 @@
+@media only screen and (max-width:1700px) {
+    .wrapper , .wrapper1 {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width:1400px) {
+    ol.level1 li:first-child {
+        padding-right: 0;
+        padding-left: 100px;
+    }
+    .s {
+        width: 50%;
+    }
+    .s p {
+        width: 55%;
+    }
+    ol.level1 .p img {
+        height: 400px;
+        width: 343px;
+    }
+    ol.level1 .p {
+        width: 46%;
+    }
+    ol.level1 li.p2 {
+        margin-top: 100px;
+    }
+    .container .wrapper1 h1 {
+        font-size: 40px;
+    }
+    .header h3 {
+        font-size: 17px;
+    }
+    .wrapper1 button {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .wallpaper {
+        height: 580px;
+    }
+    .part4 h1 {
+        font-size: 40px;
+}
+.container .wrapper1 {
+    margin-top: 150px;
+}
+.header h3 {
+    font-size: 25px;
+}
+.part4 img{
+    width: 700px;
+    height: 470px;
+}
+}
+@media only screen and (max-width:1200px) {
+    ol.level1 li:first-child {
+        padding-left: 22px;
+    }
+    .slice16 .wrapper1:nth-child(1) {
+        width: 80%;
+    }
+    .slice15 {
+        padding-left: 200px;
+    }
+    .part5 h1 {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    ol.level1 li.p2 {
+        width: 100%;
+        text-align: center;
+    }
+    ol.level1 li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+    .part5 div img {
+        width: 242px;
+        height: 160px;
+    }
+    .f6.f p {
+        font-size: 20px;
+    }
+    .part7 img {
+        width: 453px;
+        height: 274px;
+    }
+    .s1 {
+        width: 50%;
+    }
+    .slice14.s1, .slice13.s1, .slice12.s1, .slice11.s1 {
+        padding-bottom: 0px;
+    }
+    .part7 .piece1, .part7 .piece2 {
+        padding-left: 0;
+    }
+    .slice11.s1 .piece2, .slice12.s1 .piece2, .slice13.s1 .piece2, .slice14.s1 .piece2 {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .slice11.s1 .piece1 h3 {
+        margin-left: 10px;
+    }
+    .slice14.s1 {
+        padding-bottom: 75px;
+    }
+    .slice12.s1 .piece1 h3 {
+        margin-left: 10px;
+    }
+    .slice13.s1 .piece1 h3 {
+        margin-left: 10px;
+    }
+    .slice14.s1 .piece1 h3 {
+        margin-left:10px;
+    }
+    .f8.f p {
+        padding: 0;
+    }
+    .slice15 {
+        padding-left: 120px;
+    }
+    .slice15 li {
+        width: 24%;
+    }
+    
+}
+@media only screen and (max-width:980px) {
+    .s1 {
+        width: 100%;
+    }
+    .part7 img {
+        width: 902px;
+        height: 540px;
+    }
+    .part6 h1 {
+        font-size: 50px;
+    }
+    .part6 .slice7, .part6 .slice8, .part6 .slice9 {
+        width: 50%;
+    }
+    .part6 h4 {
+        width: 74%;
+    }
+    .p {
+        width: 50%;
+    }
+    .part5 div img {
+        width: 363px;
+        height: 262px;
+    }
+    .slice6.p img {
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width:730px) {
+    ol.level1 .p {
+        width: 100%;
+    }
+    .part4 img {
+        width: 454px;
+        height: 381px;
+    }
+    .information {
+        left: 226px;
+    }
+    .p {
+        width: 100%;
+    }
+    .part5 div img {
+        width: 535px;
+    }
+    .slice5.p img {
+        padding-top: 20px;
+    }
+    .part7 img {
+        width: 669px;
+        height: 400px;
+    }
+    .slice15 ul {
+        height: 60%;
+    }
+    .slice15 li {
+        width: 49%;
+        height: 55%;
+    }
+}
+@media only screen and (max-width:560px) {
+    .s {
+        width: 100%;
+    }
+    .slice1 p {
+        width: 100%;
+    }
+    ol.level1 li:first-child {
+        padding-left: 0;
+    }
+    .part5 div img {
+        width: 400px;
+    }
+    .part5 h1 {
+        font-size: 50px;
+    }
+    .container .wrapper1 h1 {
+        font-size: 30px;
+    }
+    .header h3 {
+        font-size: 20px;
+    }
+    .logo h3 {
+        font-size: 25px;
+    }
+    .logo a {
+        margin-top: 22px;
+    }
+    li.p3 i.fa-regular {
+        margin-left: 67px;
+    }
+    .part6 .slice7, .part6 .slice8, .part6 .slice9 {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .part7 img {
+        width: 480px;
+        height: 278px;
+    }
+    .slice10 p {
+        width: 100%;
+    }
+    .s p {
+        width: 70%;
+    }
+    .part4 p {
+        width: 100%;
+    }
+    .part4 p {
+    width: 100%;
+}
+.slice15 {
+    font-size: 12px;
+}
+.f1.f1, .f2.f, .f3.f {
+    line-height: 20px;
+}
+.slice15 li {
+    height: 50%;
+}
+}
+@media only screen and (max-width:400px) {
+     .level1{
+        margin: 0px;
+        overflow: hidden;
+    }
+    ol.level1 .p img {
+        padding-top:30px;
+        height: 340px;
+        width: 267px;
+    }
+    ol.level1 li.p2 {
+        margin-top: 30px;
+    }
+    .wallpaper {
+        height: 410px;
+    }
+    .header h3 {
+        font-size: 13px;
+    }
+    .logo h3 {
+        font-size: 25px;
+    }
+    li.p3 .prograph3 {
+        font-size: 20px;
+    }
+    li.p3 .prograph3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .s p {
+        width: 100%;
+    }
+    .part4 h1 {
+        padding-top:50px;
+    }
+    .part4 img {
+        padding-top: 20px;
+
+    }
+    .slice3 li:nth-child(3) {
+        padding-bottom: 35px;
+    }
+    .part5 {
+        margin-top: -80px;
+    }
+    .part4 img {
+        width: 283px;
+        height: 175px;
+    }
+    .part5 h1 {
+        padding-top: 110px;
+        font-size: 30px;
+    }
+    .part5 div img {
+        width: 315px;
+        height: 165px;
+    }
+    .space {
+        width: 100%;
+    }
+    .part5 .wrapper1 h4 {
+        font-size: 12px;
+        width: 100%;
+    } 
+    .space h2 {
+        font-size: 20px;
+    }  
+    .part4 h1 {
+        font-size: 21px;
+        padding-top: 50px;
+    }
+    .part6 h1 {
+        font-size: 32px;
+    }
+    .part6 h4 {
+        width: 95%;
+    }
+    .part7 img {
+        width: 305px;
+        height: 183px;
+    }
+    .part3 h1 {
+        padding-top: 40px;
+        font-size: 22px;
+    } 
+    ol.level1 .p2 h1 {
+        font-size: 28px;
+    }
+    .slice2 h2 {
+        font-size: 20px;
+    }
+    .slice15 ul {
+        padding-top: 34px;
+    }
+    .slice15 li {
+        height: 55%;
+    }
+    .f6.f p {
+        padding-top: 15px;
+        font-size: 8px;
+    }
+    .f8.f {
+        padding-top: 49px;
+    }
+    .slice16 .wrapper1 {
+        padding: 0;
+    }
+    .slice10 h1 {
+        padding-top: 40px;
+        font-family: t2;
+    }
+    .f1.f1, .f2.f, .f3.f {
+        line-height: 25px;
+    }
+    .f4.f h3 {
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+    .information {
+        left: 53px;
+    }
+    .f3.f {
+        padding-right: 10px;
+    }
+    .slice15 ul {
+        padding-bottom: 0px;
+    }
+    .slice15 {
+        padding-left: 14px;
+    }
+    .f1.f , .f2.f   {
+        height: 34%;
+    }
+    .slice15 ul {
+        height: 95%;
+    }
+    .f3.f {
+        height: 55%;
+    }
+
+}
+
